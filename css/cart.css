@@ -1,0 +1,142 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  padding-top: 90px;
+  background-color: #eee;
+
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.info-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.info-item {
+  text-align: center;
+}
+
+.info-label {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.info-value {
+  font-size: 1.2em;
+}
+
+.signature-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.signature {
+  margin-left: 20px;
+}
+
+.signature-label {
+  font-weight: bold;
+}
+
+.issue-date {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.header {
+  width: 100%
+}
+
+.header img {
+  opacity: 0.7;
+  width: 100%;
+}
+
+.assinatura {
+  width: 100%
+}
+
+.assinatura img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.nome {
+  color: #5bb2a9;
+  margin-left: 30%;
+  font-size: xx-large;
+}
+
+.titulo {
+  color: #8c8c8c;
+  font-size: x-large;
+
+}
+
+.texto {
+  color: #8c8c8c;
+  font-weight: 600;
+}
+
+#left-cab {
+  width: 70%;
+  float: left;
+  text-align: right;
+  margin-right: 3%;
+}
+
+#right-cab {
+  width: 30%;
+  float: left;
+}
+
+#left-infos {
+  width: 45%;
+  float: left;
+}
+
+#right-infos {
+  width: 50%;
+  float: left;
+}
+
+.infos-padding {
+  padding-bottom: 5%;
+}
+
+
+hr.gradient {
+  border-top: 3px solid #5bb2a9;
+  border-radius: 5px;
+
+}
+
+.footer {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
+
+#carteirinha {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: linear-gradient(rgba(255, 255, 255, 1), rgba(255, 255, 255, 0.9)), url("../imgs/background.png");
+}
