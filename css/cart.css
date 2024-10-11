@@ -140,3 +140,84 @@ hr.gradient {
   background-repeat: no-repeat;
   background-image: linear-gradient(rgba(255, 255, 255, 1), rgba(255, 255, 255, 0.9)), url("../imgs/background.png");
 }
+
+
+
+#loginContainer{
+  background-color: #eee;
+  height: 100vh;
+  padding-top: 50%;
+  }
+  
+  .login-form {
+  width: auto;
+  margin: 0 auto;
+  }
+  
+  .login-form .hint-text {
+  color: #fff;
+  text-align: center;
+  font-size: 0.8em;
+  }
+  
+  .form-control, .btn {
+  min-height: 38px;
+  border-radius: 8px;
+  }
+  
+  .login-btn {
+  font-size: 15px;
+  font-weight: bold;
+  }
+  
+  .input-group {
+  background-color: #fff;
+  color: #fff;
+  border: 2px solid #95D99B;
+  border-radius: 8px;
+  }
+  
+  .input-group input::placeholder {
+  color: #4D6F50;
+  background-color: #fff;
+  font-size: 1em;
+  }
+  
+  .input-group>.custom-select:not(:first-child),
+  .input-group>.form-control:not(:first-child) {
+  color: #4D6F50;
+  background-color: #fff;
+  text-transform: none;
+  font-size: 1em;
+  border: none;
+  }
+  
+  .input-group-addon .fa {
+  font-size: 18px;
+  padding: 10px;
+  color: #95D99B;
+  }
+  
+  .form-group {
+  margin-bottom: 1rem;
+  padding-left: 55px;
+  padding-right: 55px;
+  }
+  
+  .clearfix {
+  padding-left: 55px;
+  padding-right: 55px;
+  }
+  
+  .btn-success,
+  .btn-success:hover {
+  height: 42px;
+  color: #4D6F50;
+  background-color: #fff;
+  border-color: #4D6F50 !important;
+  text-transform: uppercase;
+  font-size: 1em;
+  }
+  .login-button{
+    width: 100%;
+  }
