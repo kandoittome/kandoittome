@@ -146,7 +146,7 @@ hr.gradient {
 #loginContainer{
   background-color: #eee;
   height: 100vh;
-  padding-top: 50%;
+  padding-top: 10%;
   }
   
   .login-form {
@@ -220,4 +220,80 @@ hr.gradient {
   }
   .login-button{
     width: 100%;
+  }
+  
+  .info-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+
+  #left-cab,
+  #right-cab,
+  #left-infos,
+  #right-infos {
+    float: none;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  #left-cab {
+    margin-bottom: 20px;
+  }
+
+  #right-cab img {
+    max-width: 200px;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+  }
+
+  .nome {
+    margin-left: 0;
+  }
+
+  .container {
+    width: 95%;
+  }
+
+  .form-group {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .clearfix {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .assinatura img {
+    width: 80%;
+  }
+
+  @media (min-width: 768px) {
+    #left-cab {
+      width: 70%;
+      float: left;
+      text-align: right;
+      margin-right: 3%;
+    }
+
+    #right-cab {
+      width: 27%;
+      float: left;
+      text-align: center;
+    }
+
+    #left-infos {
+      width: 45%;
+      float: left;
+    }
+
+    #right-infos {
+      width: 50%;
+      float: left;
+    }
   }
