@@ -249,13 +249,24 @@
       document.getElementById("nascimento").innerHTML = "07/01/1992";
       document.getElementById("matricula").innerHTML = "113012471";
       document.getElementById("foto_perfil").src = "./imgs/caio.PNG";
-   }
-  
+
+    }else if(loginText.includes('flavia')){
+      document.getElementById("nome").innerHTML = "FLAVIA DE OLIVEIRA ATAIDES";
+      document.getElementById("curso").innerHTML = "PÓS GRADUAÇÃO EM ENGENHARIA AMBIENTAL E SANEAMENTO BÁSICO";
+      document.getElementById("instituto").innerHTML = "COPPE - UFRJ";
+      document.getElementById("cpf").innerHTML = "577.559.000-70";
+      document.getElementById("rg").innerHTML = "218889392";
+      document.getElementById("nascimento").innerHTML = "11/06/1997";
+      document.getElementById("matricula").innerHTML = "113012961";
+      document.getElementById("foto_perfil").src = "./imgs/flavia.jpeg";
+   }  
+   
 
   });
   function dataAtual() {
     var d = new Date();
     return d.toLocaleString("pt-BR");
   }
+
 
 </script>
